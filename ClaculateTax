@@ -1,0 +1,10 @@
+pname="Headphone"
+pid=123
+pcost=1000
+tax=1000*0.18
+total=pcost+tax
+print("Product name:"+pname)
+print("Product Id is:",pid)
+print("Product Cost is:"+str(pcost))
+print("18% tax is:"+str(tax))
+print("Total amount is :",total)

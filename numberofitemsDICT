@@ -1,0 +1,11 @@
+di={}
+print(len(di))
+i=1
+while i<=5:
+    i+=1
+    read=input("Enter the Product id:")
+    read2=input("Enter the product cost:")
+    di[read]=read2
+for i,val in di.items():
+    print('Number of Items:',len(di))
+    print(i+":"+val)
