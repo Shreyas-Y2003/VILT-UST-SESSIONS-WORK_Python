@@ -8,4 +8,6 @@ while i<=5:
     di[read]=read2
 for i,val in di.items():
     print('Number of Items:',len(di))
+    
     print(i+":"+val)
+    

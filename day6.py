@@ -7,9 +7,13 @@ di={
 di['Available status']='Away from keyboard'
 print(di)
 
-dict={}
-k=input("Enter tne name of DB")
-if k in dict:
-    print(f'Exists {k}')
-else:
-    
+se={10,10,20,30,25,25,20,}
+se2={25,100,20}
+print(type(se))
+print(se.add(45))
+print(se)
+print(len(se))
+print(se.intersection(se2))
+print(se.union(se2))
+print(se.symmetric_difference(se2))
+
